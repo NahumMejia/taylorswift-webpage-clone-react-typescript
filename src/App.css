@@ -4,26 +4,28 @@
   --color-mainColor: #EEECE9;
   --color-secondaryColor: #625548;
   --font-taylor: TaylorSwift;
+  --font-taylorBold: TaylorSwift;
+  --font-taylorSemiBold: TaylorSwift;
 }
 
 
 @font-face {
     font-family: TaylorSwift;
-    src: url('/public/TaylorFont.woff') format('woff');
-    font-weight: 400; /* Regular */
+    src: url('/FontSwiftNormal.woff') format('woff');
+    font-weight: normal; 
     font-style: normal;
 }
 
 @font-face {
     font-family: TaylorSwift;
-    src: url('/public/TaylorFont.woff') format('woff');
-    font-weight: 600; /* Semi-bold (medium) */
+    src: url('/FontSwiftBold.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: TaylorSwift;
-    src: url('/public/TaylorFont.woff') format('woff');
-    font-weight: 700; /* Bold */
+    src: url('/FontSwiftBold.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
